@@ -1,0 +1,25 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+chapters:
+  - file: intro
+  - file: content/basics/encoding_vs_encryption
+  - file: content/basics/common_encoding
+  - file: content/basics/encryption_overview
+  - title: Encryption Algorithms
+    sections:
+      - file: content/algorithms/caesar_cipher
+      - file: content/algorithms/xor_cipher
+      - file: content/algorithms/vigenere_cipher
+  - title: Practice Exercises
+    sections:
+      - file: content/practice/practice_caesar
+      - file: content/practice/practice_xor
+      - file: content/practice/practice_vigenere
+  - title: Knowledge Check
+    sections:
+      - file: content/quiz/encryption_quiz
+      - file: content/quiz/solutions
+  - file: references

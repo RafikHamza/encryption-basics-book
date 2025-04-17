@@ -1,0 +1,24 @@
+encryption-basics-book
+├── _config.yml               # Configuration file for the book
+├── _toc.yml                  # Table of contents structure
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project information
+├── index.md                  # Book homepage
+├── intro.md                  # Introduction to encryption
+├── content                  # Main content folder
+│   ├── basics
+│   │   ├── encoding_vs_encryption.md
+│   │   ├── common_encoding.md
+│   │   └── encryption_overview.md
+│   ├── algorithms
+│   │   ├── caesar_cipher.md
+│   │   ├── xor_cipher.md
+│   │   └── vigenere_cipher.md
+│   ├── practice
+│   │   ├── practice_caesar.ipynb
+│   │   ├── practice_xor.ipynb
+│   │   └── practice_vigenere.ipynb
+│   └── quiz
+│       ├── encryption_quiz.ipynb
+│       └── solutions.md
+└── references.md             # Additional resources
